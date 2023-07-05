@@ -20,7 +20,7 @@ services:
     image: openjdk:10-jre-slim
     container_name: spring-boot-ems
     ports:
-      - 8080:8080
+      - 8087:8080
     depends_on:
       - database
     volumes:
